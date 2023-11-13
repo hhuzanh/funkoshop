@@ -1,8 +1,8 @@
 # Listo:
 
 -   [Home](https://hhuzanh.github.io/funkoshop/)
--   shop.html
--   admin.html (No tiene link desde el Home)
+-   [Shop](https://hhuzanh.github.io/funkoshop/shop.html)
+-   [Admin](https://hhuzanh.github.io/funkoshop/shop.html) (No tiene link desde el Home)
 
 ## Esqueletos:
 
