@@ -1,4 +1,4 @@
-# Listo:
+# Listo (o casi):
 
 -   [Home](https://hhuzanh.github.io/funkoshop/)
 -   [Shop](https://hhuzanh.github.io/funkoshop/shop.html)
@@ -8,19 +8,19 @@
 
 ### Tienda
 
--   item.html
--   cart.html
+-   [Item](https://hhuzanh.github.io/funkoshop/item.html)
+-   [Cart](https://hhuzanh.github.io/funkoshop/cart.html)
 
 ### Admin
 
--   create.html
--   edit.html
--   login.html
--   register.html
+-   [Create](https://hhuzanh.github.io/funkoshop/create.html)
+-   [Edit](https://hhuzanh.github.io/funkoshop/edit.html)
+-   [Login](https://hhuzanh.github.io/funkoshop/edit.html)
+-   [Register](https://hhuzanh.github.io/funkoshop/register.html)
 
 ### sin figma
 
--   contact.html
+-   [Contact](https://hhuzanh.github.io/funkoshop/contact.html)
 
 ## Pendientes:
 
