@@ -1,6 +1,6 @@
 # Listo:
 
--   home.html (index.html)
+-   [Home](https://hhuzanh.github.io/funkoshop/)
 -   shop.html
 -   admin.html (No tiene link desde el Home)
 
