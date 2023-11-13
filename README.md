@@ -18,7 +18,7 @@
 -   [Login](https://hhuzanh.github.io/funkoshop/login.html)
 -   [Register](https://hhuzanh.github.io/funkoshop/register.html)
 
-### sin figma
+### Sin Figma
 
 -   [Contact](https://hhuzanh.github.io/funkoshop/contact.html)
 
