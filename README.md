@@ -15,7 +15,7 @@
 
 -   [Create](https://hhuzanh.github.io/funkoshop/create.html)
 -   [Edit](https://hhuzanh.github.io/funkoshop/edit.html)
--   [Login](https://hhuzanh.github.io/funkoshop/edit.html)
+-   [Login](https://hhuzanh.github.io/funkoshop/login.html)
 -   [Register](https://hhuzanh.github.io/funkoshop/register.html)
 
 ### sin figma
