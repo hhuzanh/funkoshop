@@ -102,7 +102,7 @@ footer {
     padding: var(--spacing-68);
 }
 
-.footerP {
+.footer_p {
     text-align: center;
     margin-top: var(--spacing-36);
 }
