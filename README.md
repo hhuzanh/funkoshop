@@ -26,7 +26,7 @@
 
 #### Home:
 
--   carrousel
+-   íconos arrows slider
 -   alts de links
 -   submenu header
 -   filter/blur banner

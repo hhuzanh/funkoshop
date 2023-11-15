@@ -242,9 +242,18 @@ footer {
     text-transform: uppercase;
 }
 
-.lanzamientos_items {
-    display: flex;
-    gap: var(--spacing-24);
+.xxxx {
+    color: var(--dark-bg);
+    font-weight: 700;
+    font-size: var(--font-small);
+}
+
+.glide__arrow--left {
+    left: 0;
+}
+
+.glide__arrow--right {
+    right: 0;
 }
 
 /*     ----------     TARJETA     ----------     */
