@@ -324,11 +324,15 @@ footer {
 }
 
 .shop_filter {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     gap: var(--spacing-8);
-    padding: var(--spacing-8);
+    padding-right: var(--spacing-16);
+}
+
+.shop_filter_input {
+    font-size: var(--font-medium);
 }
 
 .shop_filter_rango {
@@ -345,6 +349,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-left: var(--spacing-8);
+    gap: var(--spacing-8);
 }
 
 /* .shop_filter_option {
@@ -353,6 +358,20 @@ footer {
     gap: var(--spacing-8);
 } */
 
+.shop_filter_title {
+    font-size: var(--font-large);
+    font-weight: 500;
+    padding-top: var(--spacing-12);
+}
+
+.shop_filter_option_label {
+    font-size: var(--font-medium);
+}
+
+.shop_filter_min_max_label {
+    font-size: var(--font-small);
+}
+
 .shop_items {
     display: flex;
     flex-direction: column;
@@ -360,12 +379,13 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-.shop_items {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: var(--spacing-24);
-}}
+    .shop_items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: var(--spacing-24);
+    }
+}
 
 /*     ----------     ADMIN     ----------     */
 .admin {

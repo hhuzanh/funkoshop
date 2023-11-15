@@ -33,6 +33,5 @@
 
 #### Shop:
 
--   completar form filtro (parte izquierda)
 -   URLs de links
 -   alts de links
