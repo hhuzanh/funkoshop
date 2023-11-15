@@ -141,7 +141,7 @@ footer {
 
 /*     ----------     BANNER     ----------     */
 .banner {
-    background-image: url(image/funkos-banner.webp);
+    background-image: url(image/funkos-banner-2.webp);
     background-size: cover;
     /* background-attachment: fixed; */
     color: var(--light-font);
