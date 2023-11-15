@@ -343,11 +343,18 @@ footer {
 } */
 
 .shop_items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-24);
+}
+
+@media only screen and (min-width: 768px) {
+.shop_items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: var(--spacing-24);
-}
+}}
 
 /*     ----------     ADMIN     ----------     */
 .admin {
