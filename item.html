@@ -8,13 +8,10 @@
     </head>
     <body>
         <header>
-            <nav class="navbar container">
+            <nav class="header_navbar container">
                 <picture class="header_picture">
                     <a href="./index.html">
-                        <img
-                            src="./image/branding/logo_light_horizontal.svg"
-                            alt=""
-                        />
+                        <img src="./image/branding/logo_light_horizontal.svg" alt="" />
                     </a>
                 </picture>
                 <ul class="header_list">
@@ -22,9 +19,7 @@
                         <a class="navbar_link" href="./shop.html">SHOP</a>
                     </li>
                     <li>
-                        <a class="navbar_link" href="./contact.html"
-                            >CONTACTO</a
-                        >
+                        <a class="navbar_link" href="./contact.html">CONTACTO</a>
                     </li>
                     <li>
                         <a class="navbar_link" href="./login.html">LOGIN</a>
@@ -37,26 +32,109 @@
                 </ul>
             </nav>
         </header>
-        <h1>Item</h1>
+        <main>
+            <section class="item"><h1>Item</h1></section>
+            <section class="slider container glide">
+                <h2 class="slider_title">PRODUCTOS RELACIONADOS</h2>
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <article>
+                                <a href="">
+                                    <picture class="tarjeta_picture">
+                                        <span class="tarjeta_etiqueta">Nuevo</span>
+                                        <img class="tarjeta_img_front" src="image/star-wars/trooper-1.webp" alt="" />
+                                        <img class="tarjeta_img_back" src="image/star-wars/trooper-box.webp" alt="" />
+                                    </picture>
+                                    <div class="tarjeta_content">
+                                        <p class="tarjeta_licencia">STAR WARS</p>
+                                        <h4 class="tarjeta_nombre">STORMTROOPER LIGHTSABER</h4>
+                                        <p clsss="tarjeta_precio">$ 1799,99</p>
+                                        <p class="tarjeta_oferta">3 CUOTAS SIN INTERÉS</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </li>
+                        <li class="glide__slide">
+                            <article>
+                                <a href="">
+                                    <picture class="tarjeta_picture">
+                                        <span class="tarjeta_etiqueta">Nuevo</span>
+                                        <img class="tarjeta_img_front" src="image/pokemon/pidgeotto-1.webp" alt="" />
+                                        <img class="tarjeta_img_back" src="image/pokemon/pidgeotto-box.webp" alt="" />
+                                    </picture>
+                                    <div class="tarjeta_content">
+                                        <p class="tarjeta_licencia">POKEMON</p>
+                                        <h4 class="tarjeta_nombre">PIDGEOTTO</h4>
+                                        <p clsss="tarjeta_precio">$ 1799,99</p>
+                                        <p class="tarjeta_oferta">3 CUOTAS SIN INTERÉS</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </li>
+                        <li class="glide__slide">
+                            <article>
+                                <a href="">
+                                    <picture class="tarjeta_picture">
+                                        <span class="tarjeta_etiqueta">Nuevo</span>
+                                        <img class="tarjeta_img_front" src="image/harry-potter/luna-1.webp" alt="" />
+                                        <img class="tarjeta_img_back" src="image/harry-potter/luna-box.webp" alt="" />
+                                    </picture>
+                                    <div class="tarjeta_content">
+                                        <p class="tarjeta_licencia">HARRY POTTER</p>
+                                        <h4 class="tarjeta_nombre">LUNA LOVEGOOD LION MASK</h4>
+                                        <p clsss="tarjeta_precio">$ 1799,99</p>
+                                        <p class="tarjeta_oferta">3 CUOTAS SIN INTERÉS</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                        <div class="slider_arrows"><</div>
+                    </button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                        <div class="slider_arrows">></div>
+                    </button>
+                </div>
+            </section>
+        </main>
         <footer>
-            <nav class="navbar container">
+            <nav class="footer_navbar container">
                 <ul class="footer_list">
                     <li><a class="navbar_link" href="shop.html">SHOP</a></li>
                     <li>
-                        <a class="navbar_link" href="register.html"
-                            >REGISTRASE</a
-                        >
+                        <a class="navbar_link" href="register.html">REGISTRASE</a>
                     </li>
                     <li><a class="navbar_link" href="login.html">LOGIN</a></li>
                     <li>
                         <a class="navbar_link" href="contact.html">CONTACTO</a>
                     </li>
                 </ul>
-                <picture>
+                <picture class="footer_picture">
                     <img src="image/branding/isotype.svg" alt="" />
                 </picture>
             </nav>
             <p class="footer_p">© All rights reserved 2023 - Funkoshop</p>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        <script>
+            new Glide(".glide", {
+                type: "carousel",
+                startAt: 0,
+                perView: 3,
+                gap: 30,
+                breakpoints: {
+                    991: {
+                        perView: 2,
+                    },
+                    640: {
+                        perView: 1,
+                    },
+                },
+            }).mount();
+        </script>
     </body>
 </html>

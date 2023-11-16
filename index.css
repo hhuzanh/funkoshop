@@ -93,7 +93,13 @@ footer {
 }
 
 header {
-    padding: var(--spacing-36);
+    padding: var(--spacing-8);
+}
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        header: var(--spacing-36);
+    }
 }
 
 /* .header_picture {
@@ -101,15 +107,41 @@ header {
 } */
 
 footer {
-    padding: var(--spacing-68);
+    padding: var(--spacing-8);
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        padding: var(--spacing-68);
+    }
 }
 
 .footer_p {
     text-align: center;
-    margin-top: var(--spacing-36);
+    margin-top: var(--spacing-20);
 }
 
-.navbar {
+@media only screen and (min-width: 768px) {
+    .footer_p {
+        margin-top: var(--spacing-36);
+    }
+}
+
+.header_navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media only screen and (min-width: 768px) {
+    .header_navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer_navbar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -117,7 +149,7 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-    .navbar {
+    .footer_navbar {
         flex-direction: row;
     }
 }
@@ -136,9 +168,25 @@ footer {
 
 .footer_list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: start;
     font-size: var(--font-medium);
+    gap: var(--spacing-16) var(--spacing-8);
+}
+
+@media only screen and (min-width: 768px) {
+    .footer_list {
+        flex-direction: column;
+        gap: 0;
+        padding: var(--spacing-8);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer_picture {
+        margin-top: var(--spacing-24);
+        width: 15%;
+    }
 }
 
 .navbar_link {
@@ -152,7 +200,6 @@ footer {
         padding: var(--spacing-8) var(--spacing-16);
     }
 }
-
 
 .navbar_link:hover {
     background-color: var(--primary--90);
@@ -249,21 +296,21 @@ footer {
     background-color: var(--primary--90);
 }
 
-/*     ----------     LANZAMIENTOS     ----------     */
-.lanzamientos {
+/*     ----------     SLIDER     ----------     */
+.slider {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-36);
     margin: var(--spacing-68) auto;
 }
 
-.lanzamientos_title {
+.slider_title {
     font-family: var(--alt-font);
     font-size: var(--font-display);
     text-transform: uppercase;
 }
 
-.lanzamientos_arrows {
+.slider_arrows {
     color: var(--dark-bg);
     font-weight: 700;
     font-size: var(--font-small);
@@ -404,6 +451,11 @@ footer {
         grid-template-rows: 1fr 1fr 1fr;
         gap: var(--spacing-24);
     }
+}
+
+/*     ----------     ITEM     ----------     */
+.item {
+    background-color: aquamarine;
 }
 
 /*     ----------     ADMIN     ----------     */
