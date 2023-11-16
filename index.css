@@ -457,6 +457,35 @@ footer {
 /*     ----------     ITEM     ----------     */
 .item {
     background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+.item_detalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 var(--spacing-24);
+    gap: var(--spacing-24);
+}
+
+.item_licencia {
+    font-size: var(--font-small);
+    font-weight: 500;
+}
+
+.item_nombre {
+    font-size: var(--font-jumbo);
+    font-weight: 700;
+}
+
+.item_desc {
+    font-size: var(--font-large);
+    font-weight: 300;
+}
+
+.item_precio {
+    font-size: var(--font-jumbo);
 }
 
 /*     ----------     ADMIN     ----------     */
