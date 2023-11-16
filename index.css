@@ -131,7 +131,7 @@ footer {
 .header_navbar {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -159,6 +159,7 @@ footer {
     display: flex;
     align-items: center;
     font-size: var(--font-medium);
+    justify-content: space-around;
 }
 
 @media only screen and (min-width: 768px) {
@@ -191,7 +192,7 @@ footer {
 }
 
 .navbar_link {
-    display: inline-block; /* WHY? Flujo estático de la página?*/
+    /* display: inline-block;  WHY? Flujo estático de la página?*/
     padding: 0 var(--spacing-8);
     transition: background 0.3s ease-in-out;
 }
@@ -458,7 +459,13 @@ footer {
 .item {
     background-color: aquamarine;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+    .item {
+        flex-direction: row;
+    }
 }
 
 .item_detalle {
