@@ -58,6 +58,7 @@ html {
 h1 {
     text-align: center;
     padding: var(--spacing-128);
+    font-size: var(--font-display);
 }
 
 a {
