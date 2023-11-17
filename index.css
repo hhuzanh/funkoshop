@@ -504,7 +504,7 @@ footer {
     font-size: var(--font-medium);
     padding: var(--spacing-8) var(--spacing-20);
     border: none;
-    background-color: var(--dark-bg);
+    background-color: var(--dark-50);
     color: var(--light-font);
 }
 
@@ -517,7 +517,7 @@ footer {
     padding: var(--spacing-8);
     width: 60px;
     text-align: center;
-    border-color: var(--dark-bg);
+    border-color: var(--dark-30);
     border-width: 1px;
 }
 

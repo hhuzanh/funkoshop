@@ -38,7 +38,8 @@
 #### Item:
 
 -   URLs de links
--   alts de links
+-   alts de link
+-   javascript botones + -
 
 #### Admin:
 
