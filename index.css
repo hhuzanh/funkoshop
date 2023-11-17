@@ -67,9 +67,9 @@ a {
     color: inherit;
 }
 
-p {
+/* p {
     font-size: 1.8em;
-}
+} */
 
 img {
     width: 100%;
@@ -98,8 +98,8 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
-    .footer {
-        header: var(--spacing-36);
+    header {
+        padding: var(--spacing-36);
     }
 }
 
@@ -118,12 +118,15 @@ footer {
 }
 
 .footer_p {
+    font-size: ;
     text-align: center;
     margin-top: var(--spacing-20);
 }
 
 @media only screen and (min-width: 768px) {
     .footer_p {
+        font-size: var(--font-medium);
+        font-weight: 500;
         margin-top: var(--spacing-36);
     }
 }
@@ -457,7 +460,7 @@ footer {
 
 /*     ----------     ITEM     ----------     */
 .item {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
 }
@@ -473,7 +476,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding: 0 var(--spacing-24);
-    gap: var(--spacing-24);
+    gap: var(--spacing-16);
 }
 
 .item_licencia {
@@ -493,6 +496,34 @@ footer {
 
 .item_precio {
     font-size: var(--font-jumbo);
+}
+
+.item_boton {
+    font-size: var(--font-medium);
+    padding: var(--spacing-8) var(--spacing-20);
+    border: none;
+    background-color: var(--dark-bg);
+    color: var(--light-font);
+}
+
+.item_boton_agregar {
+    background-color: var(--primary-solid);
+}
+
+.item_cantidad {
+    font-size: var(--font-medium);
+    padding: var(--spacing-8);
+    width: 60px;
+    text-align: center;
+    border-color: var(--dark-bg);
+    border-width: 1px;
+}
+
+.item_promocion {
+    display: flex;
+    color: var(--secondary-solid);
+    font-size: var(--font-small);
+    font-weight: 700;
 }
 
 /*     ----------     ADMIN     ----------     */
