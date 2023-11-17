@@ -43,9 +43,9 @@
                     <p class="item_desc">Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edición limitada.</p>
                     <p class="item_precio">$ 1799,99</p>
                     <div>
-                        <button class="item_boton">-</button>
-                        <input class="item_cantidad" type="text" value="0" />
-                        <button class="item_boton">+</button>
+                        <button id="menos" class="item_boton">-</button>
+                        <input id="cantidad" class="item_cantidad" type="text" value="0" />
+                        <button id="mas" class="item_boton">+</button>
                         <button class="item_boton item_boton_agregar">Agregar al Carrito</button>
                     </div>
                     <div class="item_promocion">
@@ -140,6 +140,7 @@
             <p class="footer_p">© All rights reserved 2023 - Funkoshop</p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        <script src="./botones.js"></script>
         <script>
             new Glide(".glide", {
                 type: "carousel",
