@@ -2,6 +2,7 @@
 
 -   [Home](https://hhuzanh.github.io/funkoshop/)
 -   [Shop](https://hhuzanh.github.io/funkoshop/shop.html)
+-   [Item](https://hhuzanh.github.io/funkoshop/item.html)
 -   [Admin](https://hhuzanh.github.io/funkoshop/shop.html) (No tiene link desde el Home)
 
 ## Esqueletos:
@@ -31,6 +32,15 @@
 -   submenu header
 
 #### Shop:
+
+-   alts de links
+
+#### Item:
+
+-   URLs de links
+-   alts de links
+
+#### Admin:
 
 -   URLs de links
 -   alts de links
