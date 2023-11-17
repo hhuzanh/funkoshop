@@ -473,6 +473,26 @@ footer {
     }
 }
 
+.item_picture {
+    display: flex;
+}
+
+.item_picture img {
+    animation: fade 0.7s;
+}
+
+.item_img_back {
+    display: none;
+}
+
+.item_picture:hover .item_img_back {
+    display: block;
+}
+
+.item_picture:hover .item_img_front {
+    display: none;
+}
+
 .item_detalle {
     display: flex;
     flex-direction: column;
