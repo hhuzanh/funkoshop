@@ -7,7 +7,7 @@
 -   [Item](https://hhuzanh.github.io/funkoshop/item.html)
 
 # En Preparación:
--   [Create](https://hhuzanh.github.io/funkoshop/create.html)
+-   [Create](https://hhuzanh.github.io/funkoshop/create.html) (No tiene link desde el Home)
 
 ## Esqueletos:
 
