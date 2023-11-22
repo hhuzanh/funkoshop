@@ -308,7 +308,7 @@ footer {
 }
 
 @media only screen and (max-width: 421px) {
-        .coleccion_picture {
+    .coleccion_picture {
         border-bottom: 5px solid var(--primary-solid);
     }
 }
@@ -435,7 +435,7 @@ footer {
     .shop {
         flex-direction: row;
     }
-}    
+}
 .shop_filter {
     /* background-color: aquamarine; */
     display: flex;
@@ -656,6 +656,62 @@ td:nth-child(5) {
 
 td:nth-child(6) {
     color: var(--secondary-solid);
+}
+
+/*     ----------     CREATE     ----------     */
+.create {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    gap: var(--spacing-24);
+    padding: var(--spacing-24) var(--spacing-8);
+}
+
+.create_title {
+    font-size: var(--font-jumbo);
+}
+
+.create_form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    font-size: var(--font-large);
+    gap: var(--spacing-24);
+}
+
+.create_categoria_licencia {
+    display: flex;
+    flex-direction: row;
+}
+
+.create_nombre {
+    display: flex;
+    flex-direction: row;
+}
+
+.create_sku_precio_stock {
+    display: flex;
+    flex-direction: row;
+}
+
+.create_descuento_cuotas {
+    display: flex;
+    flex-direction: row;
+}
+
+.create_frente {
+    display: flex;
+    flex-direction: row;
+}
+
+.create_dorso {
+    display: flex;
+    flex-direction: row;
+}
+
+.create_botones {
+    display: flex;
+    flex-direction: row;
 }
 
 /*     ----------     LOGIN     ----------     */
