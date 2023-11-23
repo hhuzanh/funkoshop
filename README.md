@@ -3,18 +3,20 @@
 -   [Home](https://hhuzanh.github.io/funkoshop/)
 -   [Shop](https://hhuzanh.github.io/funkoshop/shop.html)
 -   [Item](https://hhuzanh.github.io/funkoshop/item.html)
--   [Admin](https://hhuzanh.github.io/funkoshop/shop.html) (No tiene link desde el Home)
+-   [Admin](https://hhuzanh.github.io/funkoshop/admin.html) (No tiene link desde el Home)
+-   [Item](https://hhuzanh.github.io/funkoshop/item.html)
+
+# En Preparación:
+-   [Create](https://hhuzanh.github.io/funkoshop/create.html) (No tiene link desde el Home)
 
 ## Esqueletos:
 
 ### Tienda
 
--   [Item](https://hhuzanh.github.io/funkoshop/item.html)
 -   [Cart](https://hhuzanh.github.io/funkoshop/cart.html)
 
 ### Admin
 
--   [Create](https://hhuzanh.github.io/funkoshop/create.html)
 -   [Edit](https://hhuzanh.github.io/funkoshop/edit.html)
 -   [Login](https://hhuzanh.github.io/funkoshop/login.html)
 -   [Register](https://hhuzanh.github.io/funkoshop/register.html)
