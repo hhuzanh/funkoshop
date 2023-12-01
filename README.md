@@ -9,6 +9,7 @@
 # En Preparación:
 
 -   [Create](https://hhuzanh.github.io/funkoshop/create.html) (link desde desde Admin)
+-   [Register](https://hhuzanh.github.io/funkoshop/register.html)
 
 ## Esqueletos:
 
@@ -20,7 +21,6 @@
 
 -   [Edit](https://hhuzanh.github.io/funkoshop/edit.html)
 -   [Login](https://hhuzanh.github.io/funkoshop/login.html)
--   [Register](https://hhuzanh.github.io/funkoshop/register.html)
 
 ### Sin Figma
 
@@ -47,3 +47,8 @@
 
 -   URLs de links
 -   alts de links
+
+#### Register
+
+-   Formato (CSS)
+-   Terminos y condiciones
