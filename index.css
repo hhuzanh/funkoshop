@@ -404,6 +404,7 @@ footer {
 .tarjeta_licencia {
     font-size: var(--font-xsmall);
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .tarjeta_nombre {
@@ -544,6 +545,7 @@ footer {
 .item_licencia {
     font-size: var(--font-small);
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .item_nombre {
@@ -715,6 +717,17 @@ td:nth-child(6) {
 }
 
 /*     ----------     LOGIN     ----------     */
+.login {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+}
 
 /*     ----------     REGISTER     ----------     */
 .register {
@@ -737,4 +750,10 @@ td:nth-child(6) {
     100% {
         opacity: 1;
     }
+}
+
+.form_errors {
+    color: red;
+    font-weight: bold;
+    font-size: var(--font-medium);
 }
