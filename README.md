@@ -10,6 +10,7 @@
 
 -   [Create](https://hhuzanh.github.io/funkoshop/create.html) (link desde desde Admin)
 -   [Register](https://hhuzanh.github.io/funkoshop/register.html)
+-   [Login](https://hhuzanh.github.io/funkoshop/login.html)
 
 ## Esqueletos:
 
@@ -20,7 +21,6 @@
 ### Admin
 
 -   [Edit](https://hhuzanh.github.io/funkoshop/edit.html)
--   [Login](https://hhuzanh.github.io/funkoshop/login.html)
 
 ### Sin Figma
 
@@ -30,7 +30,6 @@
 
 #### Home:
 
--   íconos arrows slider
 -   alts de links
 -   submenu header
 
@@ -40,15 +39,17 @@
 
 #### Item:
 
--   URLs de links
 -   alts de link
 
 #### Admin:
 
--   URLs de links
 -   alts de links
 
 #### Register
 
 -   Formato (CSS)
 -   Terminos y condiciones
+
+#### Register
+
+-   Formato (CSS)
