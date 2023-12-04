@@ -8,17 +8,18 @@
     </head>
     <body>
         <main class="container login">
-            <h2>INGRESAR A MI CUENTA</h2>
+            <h2 class="login_titulo">INGRESAR A MI CUENTA</h2>
             <form class="login_form" action="/auth/login" method="post">
-                <div>
+                <div class="login_inputline">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" />
+                    <input class="login_input" type="email" id="email" name="email" />
                 </div>
-                <div>
+                <div class="login_inputline">
                     <label for="password">Contraseña:</label>
-                    <input type="password" id="password" name="password" />
+                    <input class="login_input" type="password" id="password" name="password" />
                 </div>
-                <button type="submit">Ingresar</button>
+                <button class="login_button" type="submit">Ingresar</button>
+
             </form>
         </main>
     </body>

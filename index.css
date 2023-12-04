@@ -726,17 +726,54 @@ td:nth-child(6) {
 
 /*     ----------     LOGIN     ----------     */
 .login {
-    background-color: pink;
+    /* background-color: pink; */
+    padding: var(--spacing-8);
+    padding-top: var(--spacing-36);
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: var(--spacing-24);
 }
 
 .login_form {
     display: flex;
+    font-size: var(--font-small);
     flex-direction: column;
+    gap: var(--spacing-24);
+
 }
 
+.login_titulo {
+    font-size: var(--font-large);
+
+}
+.login_inputline {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.login_input {
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: var(--primary-solid);
+
+}
+
+.login_button{
+
+    background-color: var(--primary-solid);
+    border-style: none;
+    font-size: var(--font-xsmall);
+    color: var(--light-font);
+    width: 60%;
+    align-self: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.login_button:hover{
+    background-color: var(--dark-bg);
+}
 /*     ----------     REGISTER     ----------     */
 .register {
     background-color: aquamarine;
