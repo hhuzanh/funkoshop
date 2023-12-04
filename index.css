@@ -732,14 +732,14 @@ td:nth-child(6) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--spacing-24);
+    gap: var(--spacing-36);
 }
 
 .login_form {
     display: flex;
     font-size: var(--font-small);
     flex-direction: column;
-    gap: var(--spacing-24);
+    gap: var(--spacing-36);
 
 }
 
@@ -762,6 +762,7 @@ td:nth-child(6) {
 .login_button{
 
     background-color: var(--primary-solid);
+    padding: var(--spacing-12);
     border-style: none;
     font-size: var(--font-xsmall);
     color: var(--light-font);
@@ -776,15 +777,51 @@ td:nth-child(6) {
 }
 /*     ----------     REGISTER     ----------     */
 .register {
-    background-color: aquamarine;
+    padding: var(--spacing-8);
+    padding-top: var(--spacing-36);
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap:var(--spacing-36) ;
 }
 
 .register_form {
     display: flex;
+    font-size: var(--font-small);
     flex-direction: column;
+    gap: var(--spacing-36)
+}
+
+
+.register_titulo {
+    font-size: var(--font-large);
+}
+
+.register_inputline {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+   
+}
+.register_input {
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: var(--primary-solid);
+}
+
+.register_button{
+
+    background-color: var(--primary-solid);
+    padding: var(--spacing-12);
+    border-style: none;
+    font-size: var(--font-xsmall);
+    color: var(--light-font);
+    width: 60%;
+    align-self: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.register_button:hover{
+    background-color: var(--dark-bg);
 }
 
 /*     ----------     XXXXX     ----------     */
