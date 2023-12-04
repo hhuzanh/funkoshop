@@ -438,7 +438,6 @@ footer {
     }
 }
 .shop_filter {
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     gap: var(--spacing-8);
@@ -503,7 +502,6 @@ footer {
 
 /*     ----------     ITEM     ----------     */
 .item {
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
 }
@@ -726,7 +724,6 @@ td:nth-child(6) {
 
 /*     ----------     LOGIN     ----------     */
 .login {
-    /* background-color: pink; */
     padding: var(--spacing-8);
     padding-top: var(--spacing-36);
     display: flex;
@@ -740,13 +737,12 @@ td:nth-child(6) {
     font-size: var(--font-small);
     flex-direction: column;
     gap: var(--spacing-36);
-
 }
 
 .login_titulo {
     font-size: var(--font-large);
-
 }
+
 .login_inputline {
     display: grid;
     grid-template-columns: 2fr 5fr;
@@ -756,11 +752,9 @@ td:nth-child(6) {
     border-style: none;
     border-bottom-style: solid;
     border-color: var(--primary-solid);
-
 }
 
-.login_button{
-
+.login_button {
     background-color: var(--primary-solid);
     padding: var(--spacing-12);
     border-style: none;
@@ -769,12 +763,12 @@ td:nth-child(6) {
     width: 60%;
     align-self: center;
     transition: all 0.3s ease-in-out;
-
 }
 
-.login_button:hover{
+.login_button:hover {
     background-color: var(--dark-bg);
 }
+
 /*     ----------     REGISTER     ----------     */
 .register {
     padding: var(--spacing-8);
@@ -782,16 +776,15 @@ td:nth-child(6) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:var(--spacing-36) ;
+    gap: var(--spacing-36);
 }
 
 .register_form {
     display: flex;
     font-size: var(--font-small);
     flex-direction: column;
-    gap: var(--spacing-36)
+    gap: var(--spacing-36);
 }
-
 
 .register_titulo {
     font-size: var(--font-large);
@@ -800,16 +793,15 @@ td:nth-child(6) {
 .register_inputline {
     display: grid;
     grid-template-columns: 2fr 5fr;
-   
 }
+
 .register_input {
     border-style: none;
     border-bottom-style: solid;
     border-color: var(--primary-solid);
 }
 
-.register_button{
-
+.register_button {
     background-color: var(--primary-solid);
     padding: var(--spacing-12);
     border-style: none;
@@ -820,7 +812,7 @@ td:nth-child(6) {
     transition: all 0.3s ease-in-out;
 }
 
-.register_button:hover{
+.register_button:hover {
     background-color: var(--dark-bg);
 }
 
