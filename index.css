@@ -274,7 +274,7 @@ footer {
 }
 
 @media only screen and (min-width: 421px) {
-    .coleccion:nth-child(2) .coleccion_picture {
+    .coleccion:nth-child(even) .coleccion_picture {
         order: -1;
     }
 }
@@ -658,6 +658,14 @@ td:nth-child(5) {
 
 td:nth-child(6) {
     color: var(--secondary-solid);
+}
+
+.botonito {
+    background: none;
+    padding: 0px;
+    border: none;
+    color: var(--secondary-solid);
+    font-size: var(--font-xsmall);
 }
 
 /*     ----------     CREATE     ----------     */
