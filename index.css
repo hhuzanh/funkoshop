@@ -726,7 +726,7 @@ td:nth-child(6) {
 
 /*     ----------     LOGIN     ----------     */
 .login {
-    background-color: aquamarine;
+    background-color: pink;
     display: flex;
     flex-direction: column;
     align-items: center;
