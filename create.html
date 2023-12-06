@@ -35,52 +35,48 @@
         <main class="create container">
             <h2 class="create_title">CREAR NUEVO ITEM</h2>
             <form class="create_form" action="" method="post">
-                <div class="create_categoria_licencia">
+                <div class="create_linea">
                     <label for="categoria">Categoría:</label>
                     <select name="categoria" id="categoria">
-                        <option value="Catagoria1">Categoría 1</option>
-                        <option value="Catagoria2">Categoría 2</option>
-                    </select>
-                    <div></div>
-                    <label for="licencia">Licencia:</label>
-                    <select name="licencia" id="licencia">
                         <option value="Pokemon">Pokemon</option>
                         <option value="Star Sars">Star Wars</option>
                         <option value="Harry Poter">Harry Poter</option>
                     </select>
                 </div>
-                <div class="create_nombre">
+                <div class="create_linea">
                     <label for="nombre">Nombre del Producto:</label>
                     <input type="text" name="nombre" id="nombre" />
                 </div>
                 <textarea rows="10" name="descripcion">Descripción del producto</textarea>
-                <div class="create_sku_precio_stock">
-                    <label for="sku">SKU:&nbsp;</label>
+                <div class="create_linea">
+                    <label for="sku">SKU:</label>
                     <input type="text" name="sku" id="sku" />
-                    <label for="precio">Precio:&nbsp;</label>
+                    <label for="precio">Precio:</label>
                     <input type="text" name="precio" id="precio" placeholder="$ 0.000,00" />
-                    <label for="stock">Stock:&nbsp;</label>
-                    <input type="text" name="stock" id="stok" placeholder="0" />
+                    <label for="stock">Stock:</label>
+                    <input type="text" name="stock" id="stock" placeholder="0" />
+                    <div></div>
                 </div>
-                <div class="create_descuento_cuotas">
-                    <label for="descuento">Descuento:&nbsp;</label>
+                <div class="create_linea">
+                    <label for="descuento">Descuento:</label>
                     <input type="text" name="descuento" id="descuento" placeholder="0%" />
-                    <label for="cuotas">Cuotas:&nbsp;</label>
+                    <label for="cuotas">Cuotas:</label>
                     <select name="cuotas" id="cuotas">
                         <option value="1 Pago">1 Pago</option>
                         <option value="3 Cuotas sin interés">3 Cuotas sin interés</option>
                         <option value="6 Cuotas">6 Cuotas</option>
                     </select>
+                    <div></div>
                 </div>
-                <div class="create_frente">
-                    <label for="frente">Imagen Frente:&nbsp;</label>
+                <div class="create_linea">
+                    <label>Imagen Frente:</label>
                     <button>Elegir Archivo</button>
                 </div>
-                <div class="create_dorso">
-                    <label for="dorso">Imagen Dorso:&nbsp;</label>
+                <div class="create_linea">
+                    <label>Imagen Dorso:</label>
                     <button>Elegir Archivo</button>
                 </div>
-                <div class="create_botones">
+                <div class="create_linea">
                     <button type="submit">Agregar Producto</button>
                     <button type="reset">Limpiar</button>
                 </div>

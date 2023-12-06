@@ -80,6 +80,12 @@ ol {
     list-style-type: none;
 }
 
+input {
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: var(--primary-solid);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -687,39 +693,10 @@ td:nth-child(6) {
     gap: var(--spacing-24);
 }
 
-.create_categoria_licencia {
-    display: grid;
-    grid-template-columns: 3fr 4fr 1fr 3fr 4fr;
-}
-
-.create_nombre {
-    display: flex;
+.create_linea {
+    display: row;
     flex-direction: row;
-}
-
-.create_sku_precio_stock {
-    display: grid;
-    grid-template-columns: 2fr 3fr 2fr 3fr 2fr 2fr 3fr;
-}
-
-.create_descuento_cuotas {
-    display: grid;
-    grid-template-columns: 3fr 2fr 2fr 4fr 1fr;
-}
-
-.create_frente {
-    display: flex;
-    flex-direction: row;
-}
-
-.create_dorso {
-    display: flex;
-    flex-direction: row;
-}
-
-.create_botones {
-    display: flex;
-    flex-direction: row;
+    gap: var(--spacing-8);
 }
 
 /*     ----------     LOGIN     ----------     */
@@ -746,12 +723,6 @@ td:nth-child(6) {
 .login_inputline {
     display: grid;
     grid-template-columns: 2fr 5fr;
-}
-
-.login_input {
-    border-style: none;
-    border-bottom-style: solid;
-    border-color: var(--primary-solid);
 }
 
 .login_button {
@@ -793,12 +764,6 @@ td:nth-child(6) {
 .register_inputline {
     display: grid;
     grid-template-columns: 2fr 5fr;
-}
-
-.register_input {
-    border-style: none;
-    border-bottom-style: solid;
-    border-color: var(--primary-solid);
 }
 
 .register_button {
